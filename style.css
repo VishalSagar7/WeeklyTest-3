@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    color: white;
+}
+.offer-nav{
+    height: 40px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(24, 24, 24), rgb(230, 47, 47));
+}
+.nav2{
+    /* display: flex; */
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.nav2 .nav-child{
+    width: 60%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.nav2 .nav-child p{
+    cursor: pointer;
+}
+.nav2 .nav-child input{
+    width: 400px;
+    margin-right: 10px;
+}
+.nav2 .nav-child div{
+    display: flex;
+}
+
+.bgimg-div{
+    width: 100%;
+    height: 370px;
+    background-image: url(assets/bgshoe3.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.bgimg-div .main-head{
+    height: 50%;
+    width: 50%;
+    margin-left: 180px;
+    background-color: rgba(0, 0, 0, 0.442);
+    padding: 20px;
+}
+.bgimg-div .main-head p{
+    font-size: 20px;
+}
+.items-div{
+    background-color: rgb(215, 212, 212);
+    height: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-div .items-div-child{
+    background-color: rgb(154, 152, 152);
+    height: 85%;
+    width: 90%;
+    padding: 10px;
+}
+.items-div .items-div-child h2{
+    color: black;
+}
+.shoe-card{
+    height: 150px;
+    background-color: rgb(84, 84, 84);
+    padding: 1px;
+}
+.shoes-card-parent{
+    display: flex;
+    gap: 5px;
+}
+.shoe-card img{
+    height: 80%;
+}
+.lastdiv{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg,gray,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastdiv .lastdiv-child{
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(90deg, rgb(24, 24, 24), rgb(230, 47, 47));
+    box-shadow: 1px 1px 10px rgb(171, 170, 170);
+    display: flex;
+    justify-content: space-between;
+
+}
+.lasdiv-child-left{
+    width: 45%;
+    height: 100%;
+    padding: 30px;
+}
+.lasdiv-child-left p{
+    margin-block-start: 40px;
+    font-size: 20px;
+}
+.lasdiv-child-right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+}
+.lasdiv-child-right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px white ;
+}
+.lasdiv-child-right img:hover{
+    transform: scale(1.5);
+    position: relative;
+    margin-top: 0;
+    margin-right: 0;
+}
